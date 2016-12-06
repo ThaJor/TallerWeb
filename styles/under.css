@@ -1,0 +1,48 @@
+main
+{
+	text-align: center;
+	font-family: helvetica;
+}
+p
+{
+	font-size: 24;
+	
+	margin: 6% 6% 3% 6%;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+img{
+
+	width: 30%;
+	
+}
+
+a{
+	background-color: #CCD9DE;
+	position: relative;
+	top: 150px;
+	right: 240px;
+	
+	padding: 1%;
+}
+
+
+@media(max-width: 800px) {
+
+img{
+
+	width: 90%;
+	
+}
+
+a{
+	background-color: #CCD9DE;
+	position: relative;
+	top: 50px;
+	right: 5px;
+	padding: 3%;
+}
+
+
+}
